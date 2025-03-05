@@ -12,13 +12,16 @@ public class SampleClass {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		score[0] = sc.nextInt();
-		score[1] = sc.nextInt();
-		score[2] = sc.nextInt();
-		score[3] = sc.nextInt();
-		score[4] = sc.nextInt();
+		for(int i= 0; i<=4 ;i=i+1) {
+			
+			score[i] = sc.nextInt();
+		}
 		
-		System.out.println(score[0]+score[1]+score[2]+score[3]+score[4]);
+		for(int i=0; i<=4 ; i=i+1) {
+			
+			System.out.println(score[i]);
+			
+		}
 		
 
 	}
